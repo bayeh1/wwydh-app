@@ -26,10 +26,10 @@
 		echo "<h3>Property Information</h3>";
 		echo "<p align=\"center\">";
 		"<table>";
-			echo "<td><b><li>Block: </b>{$row["block"]}</li></td><td><b><li>Lot: </b>{$row["lot"]}</li></td><td><b><li>Zip Code: </b>{$row["zip_code"]}</li></td>";
-			echo "<td><b><li>City: </b>{$row["city"]}</li></td><td><b><li>Neighborhood: </b>{$row["neighborhood"]}</li></td><td><b><li>Police District: </b>{$row["police_district"]}</li></td>";
-			echo "<td><b><li>Council District: </b>{$row["council_district"]}</li></td><td></tr>";
-			echo "<td><b><li>Owner: </b>{$row["owner"]}</li></td><td><b><li>Use: </b>{$row["use"]}</li></td><td><b><li>Mailing Address: </b>{$row["mailing_address"]}</li></td>";
+			echo "<td><b><li>Block: </b>{$row["block"]}</li><b><li>Lot: </b>{$row["lot"]}</li><b><li>Zip Code: </b>{$row["zip_code"]}</li></td>";
+			echo "<td><b><li>City: </b>{$row["city"]}</li><b><li>Neighborhood: </b>{$row["neighborhood"]}</li></td>";
+			echo "<td><b><li>Council District: </b>{$row["council_district"]}</li><b><li>Police District: </b>{$row["police_district"]}</li></td>";
+			echo "<td><b><li>Owner: </b>{$row["owner"]}</li><b><li>Use: </b>{$row["use"]}</li><b><li>Mailing Address: </b>{$row["mailing_address"]}</li></td>";
 		echo "</table>";
 		echo "</p>";
 		echo "</body>";
